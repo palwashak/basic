@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useRoutes } from "react-router-dom";
 import About from "./About";
+import Test from "./Test";
 
 function App() {
   
@@ -11,7 +12,8 @@ function App() {
 
 
   let element = useRoutes([
-    { path: "/about", element: <About /> }
+    { path: "/about", element: <About /> },
+    { path: "/test", element: <Test /> }
   ]);
 
   return element;
