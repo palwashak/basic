@@ -30,7 +30,7 @@ function App() {
   const value = "Joel";
   return (
     <div>
-      Hello {value}
+      <h2>Hello {value}</h2>
       <table className="table table-bordered">
         <thead>
           <tr>
