@@ -5,8 +5,8 @@
 
     "routes": [
         {
-            "route": "/about",
-            "rewrite": "/About.js"
+            "route": "/",
+            "rewrite": "/index.html"
         }
     ]
 }
