@@ -2,8 +2,11 @@
     "navigationFallback": {
         "rewrite": "/index.html"
     },
-
     "routes": [
+        {
+            "route": "/about",
+            "rewrite": "/index.html"
+        },
         {
             "route": "/",
             "rewrite": "/index.html"
