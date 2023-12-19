@@ -11,7 +11,6 @@ function App() {
   }, []);
 
   let element = useRoutes([
-    { path: "/", element: <About /> },
     { path: "/about", element: <About /> },
     { path: "/test", element: <Test /> }
   ]);
