@@ -27,7 +27,7 @@ export const About = () => {
   const userTable = notifications.map((notification, index) =>
     UserRow(notification, index)
   );
-  const value = "Joel";
+  const value = "Palwasha";
   return (
     <div>
       <h2>Hello {value}</h2>
